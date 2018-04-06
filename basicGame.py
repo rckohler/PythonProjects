@@ -17,7 +17,7 @@ woes = pygame.sprite.Group()
 passable_blocks = pygame.sprite.Group()
 impassable_blocks = pygame.sprite.Group()
 all_sprites_list = pygame.sprite.Group()
-#hatredandmalcontent
+#We will win...
 
 class Player(pygame.sprite.Sprite):
     global screen_height, screen_width
