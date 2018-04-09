@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9cc4ff1-1ef7-494b-bf32-6ac24ef3bac0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/exampleImages/explosion1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exampleImages/rocket1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exampleImages/rocketFiring1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exampleImages/space.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exampleImages/world1.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SimpleGame.py" afterPath="$PROJECT_DIR$/SimpleGame.py" />
     </list>
     <ignored path="CalvertAndKohlerEnterprises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -354,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523048796955</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="easy way">
+      <created>1523294717086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523294717086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
