@@ -28,7 +28,7 @@ class Rocket(AnimatedObject):
     #create animation that go with Rocket
     firingAnimation = Animation("exampleImages/rocketFiring",1,ROCKET_FIRING)
     notFiringAnimation = Animation("exampleImages/rocket",1,ROCKET_NOT_FIRING)
-    rocketExploding = SingleAnimationFromSpriteSheet("exampleImages/explosion",ROCKET_EXPLODING,5,5,25)
+    rocketExploding = SingleAnimationFromSpriteSheet("exampleImages/explosion",ROCKET_EXPLODING,4,4,16)
     rocketExploding.isRecurring = False
     animations = [notFiringAnimation,firingAnimation,rocketExploding]
 
@@ -67,7 +67,7 @@ class Asteroid(AnimatedObject):
     def explode(self):
         self.currentAnimation = Asteroid.ASTEROID_EXPLODING
     def checkForRemoval(self):
-       if self.currentAnimation ==  Asteroid.ASTEROID_EXPLODING and self.currentFrame > 23:
+       if self.currentAnimation ==  Asteroid.ASTEROID_EXPLODING and self.currentFrame > 14:
            #the names on these were switched before which is why it wasn't working....
             self.shouldBeRemoved = True
     def update(self):
@@ -76,6 +76,7 @@ class Asteroid(AnimatedObject):
 #3 create loop and initialize game
 
 o = Rocket(screenWidth/2,screenHeight*.86)
+o.angle = 0
 def loop():
     # check for collisions
     for actor in actors:
@@ -83,7 +84,8 @@ def loop():
             if not actor == potentialCollision:
                 if actor.distanceFrom(potentialCollision)<(actor.width + potentialCollision.width)/2:
                     actor.explode()
-                    potentialCollision.explode
+                    potentialCollision.explode()
+
                     #this is not the best way to do this with regard to memory but oh well.
     # check for input
     if pygame.key.get_pressed()[pygame.K_a] != 0:
@@ -92,7 +94,7 @@ def loop():
         o.xVelocity = 1
 
     #create randomAsteroids
-    if random.gauss(0,1) > 3.9:
+    if random.gauss(0,1) > 3.5:
         a = Asteroid()
         actors.add(a)
 
@@ -106,10 +108,11 @@ def loop():
     for actor in toBeRemoved:
         actors.remove(actor)
     toBeRemoved.clear()
+    print(actors.__len__())
 
 def initializeGame():
     actors.add(o)
-    b = DrawableObject(pygame.image.load("exampleImages/moonSurface.jpg"),screenWidth/2,screenHeight/2)
+    b = DrawableObject(pygame.image.load("exampleImages/space.png"),screenWidth/2,screenHeight/2)
     b.width = screenWidth
     b.height = screenHeight
     background.add(b)
