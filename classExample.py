@@ -23,13 +23,31 @@ print(sumOfList(result))
 
 class Guy:
 
-    def __init__(self):
-        names = ["Abe","Bob","Carl","Doug","Earl","Fred","Greg","Hal","Igor","Jayce","Kayel","Lambda","Mohawk","Ned","Owpen","Peter","Quin","Ryen","Seld","Tae","Ulysses","Victor","Wan","Xan","Yan","Zed"]
-        self.name = random.choice(names) + " " + random.choice(names)+ "son"
-        self.strength = random.randint(1,6)
-        self.speed = random.randint(1,6)
-        self.tough = random.randint(1,6)
-        self.maxhp = self.tough
+    def __init__(self, player = False):
+        if not player:
+            names = ["Abe","Bob","Carl","Doug","Earl","Fred","Greg","Hal","Igor","Jayce","Kayel","Lambda","Mohawk","Ned","Owpen","Peter","Quin","Ryen","Seld","Tae","Ulysses","Victor","Wan","Xan","Yan","Zed"]
+            self.name = random.choice(names) + " " + random.choice(names)+ "son"
+            self.strength = random.randint(1,6)
+            self.speed = random.randint(1,6)
+            self.tough = random.randint(1,6)
+        else:
+            done = False
+            pointsRemaining = 7
+
+            while not done:
+                self.name = input ("what is your name")
+                self.tough = int(input ("U have 7 points,"
+                                        "use them to upgrade your attributes. How many will u spend on strength"))
+                self.speed = input ("What will u spend on speed, "
+                                    "if u have less then zero at then end u will have to restart.")
+                self.strength = input("What will u use on strength")
+                if pointsRemaining == 0:
+                    print("good job")
+                    done = True
+                else:
+                    print("cheater")
+            self.maxhp = self.tough
+
     def introduce(self):
         print(self.name + "'s strength = " + str(self.strength))
         print(self.name + "'s tough = " + str(self.maxhp))
@@ -50,7 +68,7 @@ class Guy:
             self.tough -= (1/2)
         else:
             print(self.name + " fails at hitting " + victim.name + ".")
-
+player = Guy(True)
 def runSimulatedCombat():
     guys = []
     for i in range(1):
