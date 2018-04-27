@@ -20,7 +20,17 @@ result = rollNDS(1000,20)
 print(result)
 print(sumOfList(result))
 '''
-
+def getInt(prompt,max,min = 1):
+    while 1:
+        try:
+            ret = int(input(prompt))
+            if max >= ret >=min:
+                return ret
+            else:
+                print("out of range")
+        except:
+            print("invalid character... whole numbers only.")
+a = getInt("pick a number between 1 and 10" , 10)
 class Guy:
 
     def __init__(self, player = False):
