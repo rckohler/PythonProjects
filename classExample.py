@@ -1,4 +1,5 @@
 import random
+'''
 def greet(name):
     print("Hello " + name)
 
@@ -18,7 +19,7 @@ def sumOfList(list):
 result = rollNDS(1000,20)
 print(result)
 print(sumOfList(result))
-
+'''
 
 class Guy:
 
@@ -50,19 +51,21 @@ class Guy:
         else:
             print(self.name + " fails at hitting " + victim.name + ".")
 
+def runSimulatedCombat():
+    guys = []
+    for i in range(1):
+        guys.append(Guy())
 
-guys = []
-for i in range(1000):
-    guys.append(Guy())
-
-while guys.__len__() > 1:
+    while guys.__len__() > 1:
+        for guy in guys:
+            victim = guy
+            while guy == victim:
+                victim = random.choice(guys)
+            guy.attack(victim)
+            if victim.tough <0:
+                guys.remove(victim)
     for guy in guys:
-        victim = guy
-        while guy == victim:
-            victim = random.choice(guys)
-        guy.attack(victim)
-        if victim.tough <0:
-            guys.remove(victim)
-for guy in guys:
-    print("the victor is ")
-    guy.introduce()
+        print("the victor is ")
+        guy.introduce()
+
+
