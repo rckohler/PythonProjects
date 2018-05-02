@@ -72,8 +72,11 @@ class Cowboy(OctagonallyBasedCharacter):
                     zombie.die()
     def update(self):
         super().update()
-        if self.animations[self.currentAnimation].isFinished:
-            self.currentAnimation = Cowboy.IDLE
+        try:
+            if self.animations[self.currentAnimation].isFinished:
+                self.currentAnimation = Cowboy.IDLE
+        except:
+            print("error")
     def fire(self):
         self.currentAnimation = Cowboy.ATTACK
         self.currentFrame = 1

@@ -58,7 +58,7 @@ class Animation:
         self.ID = ID
         self.isRecurring = isRecurring
         self.images = self.loadImages(path,size)
-
+        self.isFinished = False
     @staticmethod
     def loadImages(path,size):
         ret = []
