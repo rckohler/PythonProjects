@@ -4,8 +4,11 @@ class Screen:
     def __init__(self,width, height, drawnObjectGroupsInOrderOfDrawing):
         self.drawnObjectGroups= drawnObjectGroupsInOrderOfDrawing
         self.screen = pygame.display.set_mode([width,height])
-        self.screenRate = .07
+        self.screenRate = .5
         self.lastUpdated = time.clock()
+
+
+
     def update(self):
         if time.clock()-self.lastUpdated > self.screenRate:
             for group in self.drawnObjectGroups:

@@ -57,8 +57,8 @@ class Asteroid(AnimatedObject):
     def __init__(self):
         super().__init__(Asteroid.animations,0,0)
         #obviously the sizes were off.
-        self.width = 50
-        self.height = 50
+        self.width = random.randint(30,70)
+        self.height = random.randint(30,70)
         self.yVelocity = 1 #random.randint(5,50)/100 # positive velocity moves down the screen.
         self.xPos = random.randint(self.width,screenWidth-self.width)
         self.yPos =  self.height #start off screen.
