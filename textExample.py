@@ -27,7 +27,8 @@ def drawText():
 
 
 def loop():
-    drawText()
+    if pygame.time.get_ticks()%500 == 0:
+        drawText()
 
 def initializeGame():
     pygame.font.init()
@@ -38,6 +39,7 @@ def initializeGame():
     #update all objects prior to starting game to correctly size them.
     for b in background:
         b.update()
+        drawText()
 
 
 #4 create game

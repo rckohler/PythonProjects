@@ -54,17 +54,20 @@ class PhysicalObject(DrawableObject):
         super().update()
 
 class Animation:
-    def __init__(self, path, size, ID, isRecurring = False):
+    def __init__(self, path, size, ID, start = 0, leadingZeroes = 0, isRecurring = False):
         self.ID = ID
         self.isRecurring = isRecurring
-        self.images = self.loadImages(path,size)
+        self.images = self.loadImages(path,size,leadingZeroes,start)
         self.isFinished = False
     @staticmethod
-    def loadImages(path,size):
+    def loadImages(path,size, leadingZeroes, start):
         ret = []
         for i in range(size):
-            path = path + str(i + 1) + ".png"
-            image = pygame.image.load(path)
+            tempPath = path
+            for z in range(leadingZeroes):
+                tempPath += '0'  # bad
+            tempPath += str(i + start) + ".png"
+            image = pygame.image.load(tempPath)
             image = pygame.transform.rotate(image,0)
             ret.append(image)
         return ret
