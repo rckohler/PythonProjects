@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9cc4ff1-1ef7-494b-bf32-6ac24ef3bac0" name="Default" comment="easy way">
-      <change beforePath="" afterPath="$PROJECT_DIR$/textExample.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/CalvertAndKohlerEnterprises.iml" afterPath="$PROJECT_DIR$/.idea/CalvertAndKohlerEnterprises.iml" />
+    <list default="true" id="a9cc4ff1-1ef7-494b-bf32-6ac24ef3bac0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CalvertScreen.py" afterPath="$PROJECT_DIR$/CalvertScreen.py" />
-      <change beforePath="$PROJECT_DIR$/ImportExampleForStudents.py" afterPath="$PROJECT_DIR$/ImportExampleForStudents.py" />
-      <change beforePath="$PROJECT_DIR$/SimpleGame.py" afterPath="$PROJECT_DIR$/SimpleGame.py" />
     </list>
     <ignored path="CalvertAndKohlerEnterprises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,19 +54,31 @@
       <file leaf-file-name="SimpleGame.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimpleGame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="textExample.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exampleAnimation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exampleAnimation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="textExample.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/textExample.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="28" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
+              <caret line="30" column="18" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="18" />
+              <folding>
+                <element signature="e#132#157#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +86,7 @@
       <file leaf-file-name="CalvertScreen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalvertScreen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="135">
               <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -110,10 +117,10 @@
       <file leaf-file-name="CalvertObjects.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalvertObjects.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="37">
+              <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
               <folding>
-                <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
+                <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
               </folding>
             </state>
           </provider>
@@ -138,9 +145,11 @@
       <find>Rocket(</find>
       <find>rotate</find>
       <find>shouldBeRemoved</find>
+      <find>actors</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -151,8 +160,10 @@
         <option value="$PROJECT_DIR$/classExample.py" />
         <option value="$PROJECT_DIR$/ImportExampleForStudents.py" />
         <option value="$PROJECT_DIR$/SimpleGame.py" />
-        <option value="$PROJECT_DIR$/textExample.py" />
         <option value="$PROJECT_DIR$/CalvertScreen.py" />
+        <option value="$PROJECT_DIR$/textExample.py" />
+        <option value="$PROJECT_DIR$/CalvertObjects.py" />
+        <option value="$PROJECT_DIR$/exampleAnimation.py" />
       </list>
     </option>
   </component>
@@ -178,13 +189,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CalvertAndKohlerEnterprises" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalvertAndKohlerEnterprises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="ElijahExampleImages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CalvertAndKohlerEnterprises" type="b2602c69:ProjectViewProjectNode" />
@@ -196,6 +211,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,13 +219,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\pythonProjects\exampleImages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Drew\PycharmProjects\PythonProjects" />
       <recent name="C:\pythonProjects\exampleImages" />
       <recent name="C:\Users\Calvert\PycharmProjects\CalvertAndKohlerEnterprises" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\drew\PycharmProjects\PythonProjects\ElijahExampleImages" />
+      <recent name="C:\pythonProjects\exampleImages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.textExample">
+  <component name="RunManager" selected="Python.exampleAnimation">
     <configuration name="SimpleGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,6 +273,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CalvertAndKohlerEnterprises" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicGame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="exampleAnimation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CalvertAndKohlerEnterprises" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exampleAnimation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,16 +436,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.basicGame" />
       <item index="1" class="java.lang.String" itemvalue="Python.SimpleGame" />
       <item index="2" class="java.lang.String" itemvalue="Python.textExample" />
+      <item index="3" class="java.lang.String" itemvalue="Python.exampleAnimation" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.textExample" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SimpleGame" />
-        <item index="2" class="java.lang.String" itemvalue="Python.basicGame" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.exampleAnimation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.textExample" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SimpleGame" />
+        <item index="3" class="java.lang.String" itemvalue="Python.basicGame" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1524852886366</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="simple text">
+      <created>1525891931994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525891931994</updated>
+    </task>
+    <task id="LOCAL-00005" summary="simple text">
+      <created>1525986195668</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525986195669</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -459,13 +510,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5071823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -480,7 +531,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="easy way" />
-    <option name="LAST_COMMIT_MESSAGE" value="easy way" />
+    <MESSAGE value="simple text" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -489,17 +541,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exampleImages/explosion1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CalvertObjects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
+            <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
           </folding>
         </state>
       </provider>
@@ -556,7 +603,7 @@
         <state relative-caret-position="486">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
+            <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
           </folding>
         </state>
       </provider>
@@ -605,7 +652,7 @@
         <state relative-caret-position="459">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
+            <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
           </folding>
         </state>
       </provider>
@@ -636,7 +683,7 @@
         <state relative-caret-position="901">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
+            <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
           </folding>
         </state>
       </provider>
@@ -662,7 +709,7 @@
         <state relative-caret-position="289">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
+            <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
           </folding>
         </state>
       </provider>
@@ -694,7 +741,7 @@
         <state relative-caret-position="459">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
+            <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
           </folding>
         </state>
       </provider>
@@ -765,7 +812,7 @@
         <state relative-caret-position="357">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
+            <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
           </folding>
         </state>
       </provider>
@@ -791,7 +838,7 @@
         <state relative-caret-position="289">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
+            <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
           </folding>
         </state>
       </provider>
@@ -826,16 +873,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exampleImages.py" />
-    <entry file="file://$PROJECT_DIR$/CalvertObjects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <marker date="1525282553782" expanded="true" signature="1944:2053" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exampleImages/explosion1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -849,17 +886,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleGame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CalvertScreen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="135">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -870,7 +899,35 @@
     <entry file="file://$PROJECT_DIR$/textExample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
-          <caret line="28" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <caret line="30" column="18" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="e#132#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleGame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalvertObjects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding>
+            <marker date="1525986099973" expanded="true" signature="1974:2103" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exampleAnimation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
